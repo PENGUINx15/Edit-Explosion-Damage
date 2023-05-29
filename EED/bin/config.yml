@@ -1,0 +1,21 @@
+cristal:
+#Damage to be dealt
+ damage: 10
+#whether to break blocks after the explosion
+ explosion: false
+wither-skull:
+ damage: 10
+ explosion: false
+tnt:
+ damage: 10
+ explosion: false
+minecraft-tnt:
+ damage: 10
+ explosion: false  
+creeper:
+ damage: 10
+ explosion: false     
+#message that is sent after a successful reload 
+config-reload: "&aConfig reloaded!"
+#message that is sent when a player does not have permission
+not-permision: "&cYou do not have permission."

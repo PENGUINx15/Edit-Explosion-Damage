@@ -1,0 +1,16 @@
+name: eed
+version: 1.0
+main: me.penguin.eed.eed
+author: penguin
+description:
+commands:
+  eed:
+    description: Main command for EED.
+    usage: /eed [reload]
+    permission: eed.use
+    aliases: [bpip]
+    subcommands:
+      reload:
+        description: Reloads the EED config file.
+        usage: /eed reload
+        permission: eed.reload
